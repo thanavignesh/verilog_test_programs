@@ -1,5 +1,5 @@
 module  d_negedge_ff (input rst_n, input d, input clk, output reg q);
-  always @(negedge clk)
+  always @(posedge clk)
   begin
     if(!rst_n) 
       
