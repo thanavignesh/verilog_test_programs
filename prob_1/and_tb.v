@@ -4,7 +4,7 @@ reg a;
 reg b;
 wire c;
 
-  and_gat dut(.a(a),.b(b),.c(c));
+  and_gate dut(.a(a),.b(b),.c(c));
 
 initial 
 begin
